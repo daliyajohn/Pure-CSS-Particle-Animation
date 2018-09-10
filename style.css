@@ -10,19 +10,11 @@ body {
   100% {
     transform: translate3d(0, 0, -1000px); } }
 
-.container {
-  position: relative;
-  width: 100%;
-  min-height: 100%;
-  transform-style: preserve-3d; }
-
 .bubble-wrap {
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
   transform-style: preserve-3d;
   transform-origin: center center;
-  perspective: 2000px; }
+  perspective: 2000px; 
+}
 
 .bubble {
   position: absolute;
@@ -101,75 +93,9 @@ body {
   transform: translate3d(254px, 783px, 1893px);
   background: #26d92c; }
 
-.bubble:nth-child(11) {
-  height: 6px;
-  width: 6px;
-  animation-delay: -2.2s;
-  transform: translate3d(200px, 336px, 1024px);
-  background: #2fd926; }
 
-.bubble:nth-child(12) {
-  height: 17px;
-  width: 17px;
-  animation-delay: -2.4s;
-  transform: translate3d(791px, 945px, 1878px);
-  background: #acd926; }
 
-.bubble:nth-child(13) {
-  height: 22px;
-  width: 22px;
-  animation-delay: -2.6s;
-  transform: translate3d(910px, 738px, 1821px);
-  background: #d9a926; }
 
-.bubble:nth-child(14) {
-  height: 28px;
-  width: 28px;
-  animation-delay: -2.8s;
-  transform: translate3d(98px, 830px, 1154px);
-  background: #d926af; }
-
-.bubble:nth-child(15) {
-  height: 6px;
-  width: 6px;
-  animation-delay: -3s;
-  transform: translate3d(504px, 368px, 1533px);
-  background: #d95c26; }
-
-.bubble:nth-child(16) {
-  height: 2px;
-  width: 2px;
-  animation-delay: -3.2s;
-  transform: translate3d(587px, 296px, 1752px);
-  background: #d92697; }
-
-.bubble:nth-child(17) {
-  height: 15px;
-  width: 15px;
-  animation-delay: -3.4s;
-  transform: translate3d(692px, 514px, 1529px);
-  background: #d9269d; }
-
-.bubble:nth-child(18) {
-  height: 4px;
-  width: 4px;
-  animation-delay: -3.6s;
-  transform: translate3d(393px, 854px, 931px);
-  background: #d95626; }
-
-.bubble:nth-child(19) {
-  height: 29px;
-  width: 29px;
-  animation-delay: -3.8s;
-  transform: translate3d(662px, 41px, 1268px);
-  background: #d99426; }
-
-.bubble:nth-child(20) {
-  height: 17px;
-  width: 17px;
-  animation-delay: -4s;
-  transform: translate3d(354px, 268px, 660px);
-  background: #d9262c; }
 
 
 
